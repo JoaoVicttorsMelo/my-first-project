@@ -1,5 +1,3 @@
-package project;
-
 public class facebook {
 
 	public static void main(String[] args) {
@@ -13,10 +11,10 @@ public class facebook {
 
 		boolean cont = (num % 2 == 0) ? true : false;
 		if (cont == true) {
-			System.out.println("your number " + num + ": even ");
+			System.out.println("your number " + num + ": evens ");
 
 		} else {
-			System.out.println("your number " + num + ": odd ");
+			System.out.println("your number " + num + ": odds ");
 		}
 
 	}
